@@ -1,0 +1,56 @@
+/* Cores do site */
+
+:root{
+    --fundo: hsl(212, 45%, 89%);
+    --container: hsl(0, 0%, 100%);
+    --titulo: hsl(218, 44%, 22%);
+    --paragrafo: hsl(220, 15%, 55%);
+}
+
+/* configuração da página */
+
+*{
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Outfit;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+#container{
+    width: 250px;
+    height: 400px;
+    background-color: var(--container);
+    margin: 15vh auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px rgba(207,207,207,1);
+}
+
+img{
+    border-radius: 10px;
+    margin:10px 0px 10px 10px;
+}
+
+.description{
+    margin: 10px 0px 10px 10px;
+    width: 209px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.description h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--titulo);
+    
+}
+
+.description p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--paragrafo);
+    margin-top: 10px;
+}
